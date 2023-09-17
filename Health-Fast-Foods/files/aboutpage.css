@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#aboutpage-container{
+    background-image:url(https://img.freepik.com/premium-photo/healthy-food-salad-arugula-avocado-strawberry-orange-top-view-free-space-your-text_187166-55067.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 70vh;
+    width: 100vw;
+}
+.aboutpage-content{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+.aboutpage-left{
+    display: grid;
+    /* width: 50%; */
+    /* background-color: aqua; */
+    height: 100%;
+    align-items: center;
+    margin: 1em;
+}
+.aboutpage-left-content{
+    padding: 1em;
+    font-family: sans-serif;
+}
+.aboutpage-left-heading {
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 4em;
+    text-transform: capitalize;
+}
+.aboutpage-left-paragraph{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 200;
+    font-family: cursive;
+}
+.aboutpage-link{
+    height: 20vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.aboutpage-left-link {
+    text-decoration: none;
+    padding: .7em;
+    background-color: rgba(255, 0, 0, 0.945);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    border: 1px solid red; 
+    box-shadow: 2px 2px 2px red;
+    
+}
+.aboutpage-left-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px solid red; 
+}
+.aboutpage-right {
+    /* background-color: red; */
+    height: 100%;
+    align-items: center;
+    margin: 1em;
+}
+.aboutpage-right img{
+    width: 650px;
+    height: 100%;
+}

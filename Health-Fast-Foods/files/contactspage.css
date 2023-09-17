@@ -1,0 +1,277 @@
+*,
+*:before,
+*:after {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+#contactspage-container {
+  background-image: url(https://img.freepik.com/premium-photo/healthy-food-salad-arugula-avocado-strawberry-orange-top-view-free-space-your-text_187166-55067.jpg?w=2000);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height: 70vh;
+  width: 100vw;
+}
+
+.bakery-name {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  width: 98%;
+}
+
+.contactspage-content {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.contactspage-heading {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
+.contactspage-heading h3 {
+  border-bottom: black 2px solid;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.contactspage-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  /* height: 10%; */
+  /* place-items: center; */
+  /* background-color: rgb(24, 24, 24); */
+  padding: 4em;
+  /* box-sizing: border-box; */
+  height: 90vh;
+
+
+}
+
+.contactspage-left {
+  max-width: 60%;
+  /* background-color: aqua; */
+  height: 88.5%;
+  width: 40%;
+  /* margin: 2em;
+    padding: 4em; */
+  /* background-color: #46bdf8; */
+  border-radius: 8px;
+  background-image: url(https://crushmag-online.com/wp-content/uploads/2020/02/bobos-1x5-1.png);
+}
+
+/* .contactspage-left img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 0.8;
+} */
+
+.form-container {
+  max-width: 50%;
+  height: 80%;
+  width: 40%;
+  background-color: rgba(222, 222, 222, 0.303);
+  /* margin: 2em; */
+}
+
+/* .contactspage-form form{
+    display: grid;
+}
+.contactspage-form input{
+    margin: .5em;
+}
+input{
+    padding: 10px;
+    width: 20vw;
+    outline: none;
+    border: .5px solid rgb(24, 24, 24);
+    border-radius: 5px;
+} */
+input::placeholder {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 500;
+  /* text-align: left; */
+}
+
+/* .reservations-choice{
+    background-color: orange;
+} */
+
+/* new form*/
+
+.form-container {
+  /* margin-top: 5em; */
+  max-width: 38em;
+  padding: 1em 3em 2em 3em;
+  /* margin: 0em auto; */
+  background-color: #fff;
+  border-radius: 4.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+
+  /* background-color: #f0a500; */
+}
+
+/* h4 {
+  color: #f0a500;
+} */
+input,
+input[type="radio"]+label,
+input[type="checkbox"]+label:before,
+select option,
+select {
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  transition: all 0.35s ease-in-out;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #bd8200;
+}
+
+input:focus+.input-icon i {
+  color: #f0a500;
+}
+
+input:focus+.input-icon:after {
+  border-right-color: #f0a500;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]+label,
+select {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  /* float: left; */
+  border-radius: 0;
+}
+
+input[type="radio"]:checked+label,
+input:checked+label:before,
+select:focus,
+select:active {
+  background-color: #f0a500;
+  color: #fff;
+  border-color: #bd8200;
+}
+
+.input-group {
+  margin-bottom: 1em;
+  display: flex;
+
+}
+
+.input-group:before,
+.input-group:after {
+  content: "";
+  display: table;
+}
+
+.input-group-icon {
+  position: relative;
+}
+
+.input-group-icon input {
+  padding-left: 4.4em;
+}
+
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.input-group-icon .input-icon:after {
+  position: absolute;
+  top: 0.6em;
+  bottom: 0.6em;
+  left: 3.4em;
+  display: block;
+  border-right: 1px solid #e5e5e5;
+  content: "";
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-half:last-of-type {
+  padding-top: 30px;
+}
+
+.col-third {
+  padding-right: 10px;
+  /* float: left; */
+  display: flex;
+  justify-content: space-around;
+  width: 33.33333333%;
+  /* background-color: red; */
+  /* margin: 1em; */
+}
+
+button {
+  padding: 1em;
+  margin: 1em;
+  width: 95%;
+  background-color: #f0a500;
+  outline: none;
+  border: #f0a500 1px solid;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: rgb(216, 216, 216);
+  border: #c2c2c2 1px solid;
+  color: #f0a500;
+}
+
+@media only screen and (max-width: 540px) {
+  .col-half {
+    width: 100%;
+    padding-right: 0;
+  }
+}
